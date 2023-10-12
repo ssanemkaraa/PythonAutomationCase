@@ -24,3 +24,4 @@ This project encompasses API and UI tests created using the pytest and Selenium 
 - `test_cases`       : This directory contains API and UI test cases.
 - `utils`            : This directory contains utility methods used by other classes.
 - `requirements.txt` : This file contains library requirements.
+
