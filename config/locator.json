@@ -1,0 +1,34 @@
+{
+  "cookie": {
+    "accept": "//a[@id='wt-cli-accept-all-btn']"
+  },
+  "navigation": {
+    "companyMenu": "//a[@id='navbarDropdownMenuLink' and contains(text(), 'Company')]",
+    "careers": "//a[@class='dropdown-sub' and contains(text(), 'Careers')]"
+  },
+  "homePage": {
+    "verifyHomePage": "//*[@class='home page-template page-template-layouts page-template-layout-home-23_v3 page-template-layoutslayout-home-23_v3-php page page-id-2815 wp-embed-responsive home-page has-announce e-lazyload elementor-default elementor-kit-960 elementor-page elementor-page-2815']"
+  },
+  "careerPage": {
+    "verifyCareerQA": "//*[@class='page-template page-template-layouts page-template-layout-careers-open page-template-layoutslayout-careers-open-php page page-id-13315 page-child parent-pageid-22610 wp-embed-responsive career-page inner-page e-lazyload elementor-default elementor-kit-960 elementor-page elementor-page-13315 scrolled nav-active']",
+    "location": "//h3[@class='category-title-media ml-0' and contains(text(), 'Our Locations')]",
+    "lifeAtInsider": "//h2[@class='elementor-heading-title elementor-size-default' and contains(text(), 'Life at Insider')]",
+    "seeAllTeams": "//a[@class='btn btn-outline-secondary rounded text-medium mt-5 mx-auto py-3 loadmore' and contains(text(), 'See all teams')]",
+    "findYourDreamJob": "//a[@class='btn btn-info rounded mr-0 mr-md-4 py-3']",
+    "seeAllJobs": "//a[@class='btn btn-outline-secondary rounded text-medium mt-2 py-3 px-lg-5 w-100 w-md-50' and contains(text(), 'See all QA jobs')]",
+    "jobList": "//*[@id='jobs-list']",
+    "istanbulInJobList": "//*[@class='position-location text-large' and contains(text(), 'Istanbul, Turkey')]",
+    "locationResults": "//*[@id='select2-filter-by-location-results']",
+    "filterLocation": "//span[@class='select2-selection__rendered' and @id='select2-filter-by-location-container']",
+    "istanbulInFilter": "//li[contains(text(),'Istanbul, Turkey')]",
+    "filterDepartment": "//span[@class='select2-selection__rendered' and @id='select2-filter-by-department-container']",
+    "qaInFilter": "//li[contains(text(),'Quality Assurance')]",
+    "mainLocatorForFilterResult": "//*[@id='jobs-list']",
+    "subLocatorForFilterResult": "//*[@class='position-location text-large']",
+    "hoverForViewRole": "(//div[@class='position-list-item-wrapper bg-light'])[1]",
+    "viewRole": "(//a[@class='btn btn-navy rounded pt-2 pr-5 pb-2 pl-5' and text()='View Role'])[1]"
+  },
+  "jobFormPage": {
+    "applyButton": "(//a[@class='postings-btn template-btn-submit shamrock'])[1]"
+  }
+}
