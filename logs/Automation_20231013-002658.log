@@ -1,0 +1,9 @@
+2023-10-13 00:26:58,829 - root - INFO - 	 Driver - Browser name specified and changed : Chrome
+2023-10-13 00:26:58,829 - WDM - INFO - ====== WebDriver manager ======
+2023-10-13 00:26:58,996 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:26:59,191 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:26:59,400 - WDM - INFO - Driver [/Users/sanemkara/.wdm/drivers/chromedriver/mac64/118.0.5993.70/chromedriver-mac-arm64/chromedriver] found in cache
+2023-10-13 00:27:00,702 - root - INFO - 	 Driver - Chrome driver setup done
+2023-10-13 00:27:00,708 - root - INFO - 	 Driver - Implicit wait done
+2023-10-13 00:27:46,199 - root - INFO - UiHelper - Verified URL: https://useinsider.com/careers/quality-assurance/
+2023-10-13 00:27:47,283 - root - ERROR - 	 The method causing the error : UiHelper - click_element.

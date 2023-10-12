@@ -9,10 +9,8 @@ class HomePage:
 
     def __init__(self):
         self.__ui_helper = UiHelper()
-
         self.__config_helper = JsonHelper("config")
         self.__home_page_url = self.__config_helper.get("homePage")
-
         self.__locator_helper = JsonHelper("locator")
         self.__home_page_locator = self.__locator_helper.get("homePage")
         self.__navigation_page_locator = self.__locator_helper.get("navigation")

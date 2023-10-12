@@ -1,0 +1,18 @@
+2023-10-13 00:24:29,450 - root - INFO - 	 Driver - Browser name specified and changed : Chrome
+2023-10-13 00:24:29,451 - WDM - INFO - ====== WebDriver manager ======
+2023-10-13 00:24:29,624 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:24:29,823 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:24:30,518 - WDM - INFO - Driver [/Users/sanemkara/.wdm/drivers/chromedriver/mac64/118.0.5993.70/chromedriver-mac-arm64/chromedriver] found in cache
+2023-10-13 00:24:31,857 - root - INFO - 	 Driver - Chrome driver setup done
+2023-10-13 00:24:31,866 - root - INFO - 	 Driver - Implicit wait done
+2023-10-13 00:24:34,317 - root - INFO - UiHelper - Verified URL: https://useinsider.com/careers/quality-assurance/
+2023-10-13 00:24:35,392 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="bb3238b264d36aed774170c2c72cd5cf", element="624495080CBA4CD6A7B949D0E05E24A4_element_44")>
+2023-10-13 00:24:35,395 - root - INFO - UiHelper - Verified URL: https://useinsider.com/careers/open-positions/?department=qualityassurance
+2023-10-13 00:24:35,437 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="bb3238b264d36aed774170c2c72cd5cf", element="6554659DF282E635A352F2B48D7CE292_element_53")>
+2023-10-13 00:24:40,487 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="bb3238b264d36aed774170c2c72cd5cf", element="6554659DF282E635A352F2B48D7CE292_element_82")>
+2023-10-13 00:24:40,528 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="bb3238b264d36aed774170c2c72cd5cf", element="6554659DF282E635A352F2B48D7CE292_element_83")>
+2023-10-13 00:24:40,565 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="bb3238b264d36aed774170c2c72cd5cf", element="6554659DF282E635A352F2B48D7CE292_element_84")>
+2023-10-13 00:24:40,603 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="bb3238b264d36aed774170c2c72cd5cf", element="6554659DF282E635A352F2B48D7CE292_element_85")>
+2023-10-13 00:24:40,625 - root - INFO - verify_text_in_list : Istanbul, Turkey
+2023-10-13 00:24:45,645 - root - INFO - UiHelper - Scrolled to <selenium.webdriver.remote.webelement.WebElement (session="bb3238b264d36aed774170c2c72cd5cf", element="6554659DF282E635A352F2B48D7CE292_element_77")>
+2023-10-13 00:24:50,662 - root - ERROR - 	 The method causing the error : UiHelper - hover_element.

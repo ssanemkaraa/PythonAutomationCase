@@ -2,11 +2,15 @@ import os
 import time
 import logging
 
+import pyautogui
+
 
 class Logger:
     @staticmethod
     def log():
-        file_path = os.path.join('logs', 'Automation_' + time.strftime("%Y%m%d-%H%M%S") + '.log')
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.abspath(os.path.join(current_dir, ".."))
+        file_path = os.path.join(project_root, 'logs', 'Automation_' + time.strftime("%Y%m%d-%H%M%S") + '.log')
 
         logger = logging.getLogger()
         c_handler = logging.StreamHandler()
@@ -28,3 +32,10 @@ class Logger:
         logger.setLevel(logging.INFO)  # Set the logger level to INFO
 
         return logger
+
+    @staticmethod
+    def take_screenshot(test_name):
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.abspath(os.path.join(current_dir, ".."))
+        screenshot_path = os.path.join(project_root, 'logs', 'screenshots', f'{test_name}.png')
+        pyautogui.screenshot(screenshot_path)
