@@ -1,5 +1,3 @@
-import json
-
 from helpers.api_helper import ApiHelper
 from utils.json_helper import JsonHelper
 from utils.logger import Logger

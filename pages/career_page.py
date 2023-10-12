@@ -45,6 +45,5 @@ class CareerPage:
         time.sleep(5)
         self.__ui_helper.click_element(self.__career_page_locator['viewRole'])
         self.__ui_helper.switch_to_latest_window()
-
         self.__ui_helper.is_element_visible(self.__job_form_page_locator['applyButton'])
         time.sleep(10)

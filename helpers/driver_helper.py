@@ -1,9 +1,7 @@
 import os
 from selenium import webdriver
-from selenium.common import WebDriverException
 from selenium.webdriver.chrome.options import Options as chromeOptions
 from selenium.webdriver.firefox.options import Options as firefoxOptions
-from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 

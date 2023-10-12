@@ -1,7 +1,6 @@
 from selenium.common import NoSuchFrameException, TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
@@ -153,15 +152,9 @@ class UiHelper:
 
     def switch_to_latest_window(self):
         try:
-            # Mevcut pencerenin tanımlandığı kabuk pencereye dön
             self.__driver.switch_to.default_content()
-
-            # Tüm pencere kollarını al
             window_handles = self.__driver.window_handles
-
-            # Son açılan pencereye geçiş yap
             self.__driver.switch_to.window(window_handles[-1])
-
             self.logger.info("UiHelper - Switched to the latest window.")
         except Exception as e:
             self.logger.error("\t The method causing the error : UiHelper - switch_to_latest_window.")

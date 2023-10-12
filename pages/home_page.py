@@ -19,17 +19,13 @@ class HomePage:
         self.__career_page_locator = self.__locator_helper.get("careerPage")
 
     def go_to_home_page(self, browser):
-        # Visit https://useinsider.com/ and check Insider home page is opened or not
         self.__ui_helper.go_to_url(self.__home_page_url, browser)
         self.__ui_helper.verify_url(self.__home_page_url)
         self.__ui_helper.is_element_visible(self.__home_page_locator['verifyHomePage'])
 
     def check_career(self):
-        # Select the “Company” menu in the navigation bar
         self.__ui_helper.click_element(self.__navigation_page_locator['companyMenu'])
-        # select “Careers”
         self.__ui_helper.click_element(self.__navigation_page_locator['careers'])
-        # check Career page, its Locations, Teams, and Life at Insider blocks are open or not
         self.__ui_helper.verify_url(self.__config_helper.get("careerPage"))
         self.__ui_helper.is_element_visible(self.__career_page_locator['findYourDreamJob'])
         self.__ui_helper.is_element_visible(self.__career_page_locator['location'])
