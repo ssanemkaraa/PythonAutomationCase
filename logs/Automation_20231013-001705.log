@@ -1,0 +1,27 @@
+2023-10-13 00:17:08,648 - root - INFO - 	 Driver - Browser name specified and changed : Chrome
+2023-10-13 00:17:08,648 - WDM - INFO - ====== WebDriver manager ======
+2023-10-13 00:17:12,059 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:17:12,302 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:17:12,502 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:17:12,902 - WDM - INFO - WebDriver version 118.0.5993.70 selected
+2023-10-13 00:17:12,902 - WDM - INFO - Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/118.0.5993.70/mac-arm64/chromedriver-mac-arm64.zip
+2023-10-13 00:17:12,902 - WDM - INFO - About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/118.0.5993.70/mac-arm64/chromedriver-mac-arm64.zip
+2023-10-13 00:17:13,076 - WDM - INFO - Driver downloading response is 200
+2023-10-13 00:17:18,684 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2023-10-13 00:17:18,949 - WDM - INFO - Driver has been saved in cache [/Users/sanemkara/.wdm/drivers/chromedriver/mac64/118.0.5993.70]
+2023-10-13 00:17:21,829 - root - INFO - 	 Driver - Chrome driver setup done
+2023-10-13 00:17:21,838 - root - INFO - 	 Driver - Implicit wait done
+2023-10-13 00:17:25,476 - root - INFO - UiHelper - Verified URL: https://useinsider.com/careers/quality-assurance/
+2023-10-13 00:17:26,668 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="6d031dba17eff98d18b55cf8e0b9c26e", element="F3578D36073E9AB672A0FA160F3AC2F5_element_43")>
+2023-10-13 00:17:26,686 - root - INFO - UiHelper - Verified URL: https://useinsider.com/careers/open-positions/?department=qualityassurance
+2023-10-13 00:17:26,738 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="6d031dba17eff98d18b55cf8e0b9c26e", element="2E6047147168AEE36BDF70C9CBDC7AB3_element_71")>
+2023-10-13 00:17:31,781 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="6d031dba17eff98d18b55cf8e0b9c26e", element="2E6047147168AEE36BDF70C9CBDC7AB3_element_78")>
+2023-10-13 00:17:37,325 - root - ERROR - 	 The element with locator //li[contains(text(),'Istanbul, Turkey')] is not clickable.
+2023-10-13 00:17:37,375 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="6d031dba17eff98d18b55cf8e0b9c26e", element="2E6047147168AEE36BDF70C9CBDC7AB3_element_81")>
+2023-10-13 00:17:37,411 - root - INFO - UiHelper - Clicked <selenium.webdriver.remote.webelement.WebElement (session="6d031dba17eff98d18b55cf8e0b9c26e", element="2E6047147168AEE36BDF70C9CBDC7AB3_element_82")>
+2023-10-13 00:17:37,432 - root - INFO - verify_text_in_list : Istanbul, Turkey
+2023-10-13 00:17:42,447 - root - INFO - UiHelper - Scrolled to <selenium.webdriver.remote.webelement.WebElement (session="6d031dba17eff98d18b55cf8e0b9c26e", element="2E6047147168AEE36BDF70C9CBDC7AB3_element_83")>
+2023-10-13 00:17:47,727 - root - INFO - UiHelper - Hovered over <selenium.webdriver.remote.webelement.WebElement (session="6d031dba17eff98d18b55cf8e0b9c26e", element="2E6047147168AEE36BDF70C9CBDC7AB3_element_84")>
+2023-10-13 00:17:57,890 - root - ERROR - 	 The element with locator (//a[@class='btn btn-navy rounded pt-2 pr-5 pb-2 pl-5' and text()='View Role'])[1] is not clickable.
+2023-10-13 00:17:57,898 - root - INFO - UiHelper - Switched to the latest window.
+2023-10-13 00:18:03,423 - root - ERROR - 	 The method causing the error : UiHelper - is_element_visible.
