@@ -2,8 +2,8 @@
     "homePage": "https://useinsider.com/",
     "careerPage": "https://useinsider.com/careers/",
     "apiUrl": "https://petstore.swagger.io/v2",
+    "performanceUrl": "https://www.n11.com/",
     "defaultBrowser": "Chrome",
     "implicitWait": 5,
     "explicitWait": 5
-
 }
